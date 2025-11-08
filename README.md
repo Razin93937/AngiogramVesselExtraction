@@ -1,6 +1,6 @@
 # AngiogramVesselExtraction
 
-A MATLAB App Designer project for vessel enhancement, segmentation, and ridge extraction using multiscale filtering, eigenvalue-based vesselness, and MLSEC curvature analysis.
+A MATLAB-based application for detecting, enhancing, and segmenting vessel structures in medical angiograms.
 
 ![GUI Screenshot](images/preprocessing.jpg)
 ![GUI Screenshot](images/segmentation.jpg)
