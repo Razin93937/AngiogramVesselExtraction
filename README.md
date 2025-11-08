@@ -2,13 +2,15 @@
 
 A MATLAB App Designer project for vessel enhancement, segmentation, and ridge extraction using multiscale filtering, eigenvalue-based vesselness, and MLSEC curvature analysis.
 
-![GUI Screenshot](images/preprocessing.png)
-![GUI Screenshot](images/segmentation.png)
+![GUI Screenshot](images/preprocessing.jpg)
+![GUI Screenshot](images/segmentation.jpg)
 *Screenshots of the App interface.*
 
 ---
 
 ## Features
+
+All of the following features build on top of each other in a step-by-step workflow, and every operation updates instantly through the app’s live preview windows, allowing you to see the effect of each stage in real time.
 
 ### Preprocessing
 - Median filtering  
@@ -21,30 +23,27 @@ A MATLAB App Designer project for vessel enhancement, segmentation, and ridge ex
 - Multiscale Frangi-inspired vesselness  
 - Hessian eigenvalue analysis  
 - Vesselness heatmap  
-- Optional visualization on the original image  
 
 ### Morphological Segmentation
 - Adaptive thresholding  
 - Largest-area component filtering  
 - Hole filling and refinement  
-- Perimeter and mask overlays  
 
 ### Ridge Extraction
 - Skeletonization via `bwmorph` or `bwskel`  
 - MLSEC ridge detector  
 - Ridge overlay in red  
-- Binary ridge map export  
 
 ---
 
 ## Typical Workflow
-- Load an image (retina fundus image recommended)
+- Load an image (angiogram image recommended)
 - Choose Preprocessing operations
 - Compute Vesselness
 - Adjust threshold
 - Apply Morphological cleanup
 - Extract Ridges
-- Visualize overlays or export masks
+- Visualize overlays
 
 ## Citations
 
